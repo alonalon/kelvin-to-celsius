@@ -25,7 +25,7 @@ kelvinToCelsius(45);
 ### kelvinToCelsius(input, [options])
 
 #### input
-
+Required
 Type: `number`
 
 Number to convert.
