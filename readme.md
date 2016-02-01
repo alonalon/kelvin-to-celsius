@@ -22,7 +22,7 @@ kelvinToCelsius(45);
 
 ## API
 
-### kelvinToCelsius(input, [options])
+### kelvinToCelsius(input)
 
 #### input
 Required
