@@ -16,7 +16,7 @@ $ npm install --save kelvin-to-celsius
 const kelvinToCelsius = require('kelvin-to-celsius');
 
 kelvinToCelsius(45);
-//=> -223,15
+//=> -228.15
 ```
 
 
