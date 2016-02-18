@@ -30,6 +30,9 @@ Type: `number`
 
 Number to convert.
 
+## Related 
+[Kelvin] (https://en.wikipedia.org/wiki/Kelvin)
+
 ## License
 
 MIT © [alonalon](http://github.com/alonalon)
