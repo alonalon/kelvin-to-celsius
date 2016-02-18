@@ -31,7 +31,7 @@ Type: `number`
 Number to convert.
 
 ## Related 
-[Kelvin] (https://en.wikipedia.org/wiki/Kelvin)
+[Kelvin] (https://en.wikipedia.org/wiki/Kelvin) - About Kelvin units.
 
 ## License
 
