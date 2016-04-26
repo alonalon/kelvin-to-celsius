@@ -31,6 +31,8 @@ Type: `number`
 Number to convert.
 
 ## Related 
+[Kelvin-to-fahrenheit] (https://github.com/alonalon/kelvin-to-fahrenheit/blob/master/readme.md) - Module to convert Kelvin to fahrenheit.
+
 [Kelvin] (https://en.wikipedia.org/wiki/Kelvin) - About Kelvin units.
 
 ## License
