@@ -16,3 +16,7 @@ test(t => {
 test(t => {
 	t.not(k(45), -238.15);
 });
+
+test(t => {
+	t.throws(() => k('string'), TypeError);
+});
