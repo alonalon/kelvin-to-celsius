@@ -1,6 +1,6 @@
 {
 	"name": "kelvin-to-celsius",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Convert Kelvin to Celsius",
 	"license": "MIT",
 	"repository": "alonalon/kelvin-to-celsius",
