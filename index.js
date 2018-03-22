@@ -1,13 +1,12 @@
 'use strict';
-function round(value, decimals) {
-	return Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
-}
+const round = (value, decimals) => Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
 
-module.exports = function (kelvin) {
-	if (typeof kelvin !== 'number') {
+module.exports = input => {
+	if (typeof input !== 'number') {
 		throw new TypeError('Expected a number');
 	}
 
-	var res = kelvin - 273.15;
+	const res = input - 273.15;
+
 	return round(res, 2);
 };

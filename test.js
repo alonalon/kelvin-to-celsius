@@ -1,22 +1,22 @@
 import test from 'ava';
-import k from './';
+import m from '.';
 
-test(t => {
-	t.is(k(1), -272.15);
+test('1 is -272.15', t => {
+	t.is(m(1), -272.15);
 });
 
-test(t => {
-	t.is(k(278), 4.85);
+test('278 is 4.85', t => {
+	t.is(m(278), 4.85);
 });
 
-test(t => {
-	t.not(k(20), '-253.15');
+test('20 is not -253.15', t => {
+	t.not(m(20), '-253.15');
 });
 
-test(t => {
-	t.not(k(45), -238.15);
+test('45 is not -238.15', t => {
+	t.not(m(45), -238.15);
 });
 
-test(t => {
-	t.throws(() => k('string'), TypeError);
+test('throw on wrong input', t => {
+	t.throws(() => m('string'), TypeError);
 });
